@@ -1,4 +1,3 @@
-==========================================
 PROJECT DESCRIPTION
 ==========================================
 
@@ -16,13 +15,13 @@ Registration Reader Module :
 
 - Function to register SIM :
   - Validation :
-    > No Filed should be empty
-    > NAME shouldn't have any special character
-    > GENDER can only be F or M
-    > ADDRESS must at least be 20 characters long
-    > ID_NUMBER should be a mix of characters & numbers
-    > PHONE_NUMBER should comply to country's standard (e.g. +66)
-    > NIP can't be duplicated
+    >- No Filed should be empty
+    >- NAME shouldn't have any special character
+    >- GENDER can only be F or M
+    >- ADDRESS must at least be 20 characters long
+    >- ID_NUMBER should be a mix of characters & numbers
+    >- PHONE_NUMBER should comply to country's standard (e.g. +66)
+    >- NIP can't be duplicated
 
   - For each validated record, save a new file with name as <NIP>.txt and put all info there.
 
@@ -36,17 +35,17 @@ Registration Reader Module :
 ------------------------------------------
 PROJECT INFO
 ------------------------------------------
-EDITOR			: MS VISUAL STUDIO CODE
-PROGRAMMING LANGUAGE	: JAVA SPRING-BOOT
-DEPENDENCY TOOLS		: MAVEN
-JAVA VERSION		: 8
+- EDITOR			: MS VISUAL STUDIO CODE
+- PROGRAMMING LANGUAGE	: JAVA SPRING-BOOT
+- DEPENDENCY TOOLS		: MAVEN
+- JAVA VERSION		: 8
 
 ------------------------------------------
 DEPENDECY LIBRARIES
 ------------------------------------------
-> SPRING-BOOT VALIDATION
-> JAVA FAKER
-> APACHE COMMON CSV
+- SPRING-BOOT VALIDATION
+- JAVA FAKER
+- APACHE COMMON CSV
 
 ------------------------------------------
 PROJECT STRUCTURE
